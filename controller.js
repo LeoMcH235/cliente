@@ -17,7 +17,7 @@ const consumirAPI = () => {//Funciones de tipo flecha.
       if (data === undefined) {
         console.log("el servidor no envia datos.");
       } else {
-        mostrar(data.results);//TODO : data.cosa
+        mostrar(data.results);//TODO : data.cosa ejemplo
       }
     })
     .catch((error) => {
